@@ -1,0 +1,12 @@
+/* PdfViewer.css */
+
+/* Hide default toolbar */
+.rpv-core__toolbar {
+    display: none !important;
+  }
+  
+  /* Ensure no unwanted controls are visible */
+  .rpv-core__toolbar-item {
+    display: none !important;
+  }
+  

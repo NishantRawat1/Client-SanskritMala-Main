@@ -1,0 +1,102 @@
+.about-us {
+    font-family: 'Roboto', sans-serif;;
+    line-height: 1.6;
+    
+    color: black;
+  }
+  .large-header {
+    font-size: 65px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+    padding: 20px 0; 
+    color: yellow/* Add padding to the top and bottom */
+  }
+  .header {
+    font-size: 52px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+    padding: 20px 0; 
+    color: yellow/* Add padding to the top and bottom */
+  }
+  
+  
+  .section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid #333;
+    min-height: 70vh; /* Ensures the section takes up the full height of the screen */
+  }
+  
+  .about {
+    min-height: 100vh; /* Ensures the About Us section takes up the full height of the screen */
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image img {
+    max-height: 80vh; /* Adjusts the image height to fit within the viewport */
+    max-width: 100%;
+    object-fit: cover; /* Ensures the image covers the designated space without distortion */
+  }
+  
+  .left-align {
+    text-align: left;
+  }
+  
+  .right-align {
+    text-align: right;
+  }
+  
+  .center-align {
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 40px;
+  }
+  
+  .oval-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff0;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .oval-button:hover {
+    background-color: #cc0;
+  }
+  
+  .center-button {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #ff0;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  

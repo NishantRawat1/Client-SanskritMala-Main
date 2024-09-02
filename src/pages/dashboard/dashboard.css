@@ -1,0 +1,58 @@
+@keyframes effect-3d {
+  0% {
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(800px) rotateX(5deg) rotateY(5deg);
+  }
+}
+
+.effect-3d {
+  display: inline-block;
+  animation: effect-3d 4s infinite alternate;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.relative {
+  position: relative;
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* Tailwind CSS base size */
+}
+
+.font-extrabold {
+  font-weight: 800; /* Tailwind CSS base weight */
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #7e5bef, #fd6c6c); /* Customize gradient colors */
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.blur-sm {
+  filter: blur(4px); /* Custom blur effect */
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
